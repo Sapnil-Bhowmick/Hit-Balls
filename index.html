@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created HTML" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+
+        body {
+            margin: 0;
+            background-color: black;
+        }
+    </style>
+    <title>JS</title>
+</head>
+
+<body>
+
+    <div class="select-none m-5">
+        <span class="text-xl font-bold text-white fixed "> Score : <span id="ScoreEle"> 0 </span>
+        </span>
+    </div>
+    <div class="fixed flex justify-center items-center w-full inset-0" id="modalEl">
+        <div class="p-5 bg-white max-w-md w-full flex flex-col justify-center items-center">
+            <h1 class="text-4xl font-bold" id="modalPoints"> 0 </h1>
+            <h2 class="text-green-600 text-xl font-bold font-medium my-3"> Points </h2>
+            <div class="bg-blue-500 p-5 rounded-full w-full text-xl h-10 text-white font-bold flex justify-center items-center"> 
+                <button id="StartBtn">Start Game</button>
+            </div>
+        </div>
+    </div>
+    <canvas></canvas>
+    <!-- GSAP library Script  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+        </script>
+    <!-- & For  import , export statements we have to use type="module"-->
+    <script type="module" src="Game.js"> </script>
+</body>
+
+</html>
