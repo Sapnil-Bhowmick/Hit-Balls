@@ -6,7 +6,7 @@ ___
 
 ## About The Project
 ___
-* **This is a full fledged Game with dynamic functionality developed purely using Javascript
+* This is a fully functional Game with dynamic functionality developed purely using Javascript
 
 ## **Game Features**
 ___
