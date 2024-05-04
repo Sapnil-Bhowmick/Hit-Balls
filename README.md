@@ -11,8 +11,8 @@ ___
 ## **Game Features**
 ___
 
-* The game have a single Player in the center.
-* Player have to hit the incomming balls comming towards it using missiles.
+* The game has a single Player in the center.
+* Players have to hit the incoming balls comming towards it using missiles.
 * Everytime a missile hits an incomming ball, an explosion will occur.
 * On hitting larger balls , it will shrink its size and further hits are necessary for exploding the ball
 
@@ -25,7 +25,7 @@ ___
 ## End Game
 ___
 
-* The game will end whenver an incomming ball hits the player
+* The game will end whenever an incomming ball hits the player
 
 ## Score Rule
 ___
