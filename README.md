@@ -11,7 +11,7 @@ ___
 ## **Game Features**
 ___
 
-* The game has a single Player in the center.
+* The game has a single Player at the center.
 * Players have to hit the incoming balls comming towards it using missiles.
 * Everytime a missile hits an incomming ball, an explosion will occur.
 * On hitting larger balls , it will shrink its size and further hits are necessary for exploding the ball
