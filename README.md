@@ -38,7 +38,7 @@ ___
 
 * Player missile when hits an incomming ball -- The ball and the missile both will be removed from array
 * If player missile does not hit any of the balls then on moving out of screen the missile will be removed from the array
-* On any explosion, the particles emitted will be removed when they disappear
+* On any explosion, the particles emitted will be removed from array once they disappear
 
  
   
